@@ -1,0 +1,62 @@
+.maincontainer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subcontainer {
+    color:white;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:2px;
+    width:30%;
+}
+.inputfield{
+    width: calc(100% - 40px);
+    background: transparent;
+    padding:2px;
+    border: 1px solid white;
+    height:30px
+}
+.table {
+    min-width:100%;
+    min-height: 100%;
+}
+.tbrow{
+    min-width:100%;
+}
+
+.textinput {
+    width: calc(100% - 40px);
+    background: transparent;
+    padding:2px;
+    border: 1px solid white;
+    height:170px
+
+}
+
+.community {
+    width: 250px;
+    opacity: 0.9;
+    padding:20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.community > h4 {
+    text-decoration: underline;
+    margin-top: -10px;
+}
+
+.community > .com_icon {
+    width:40px;
+    height: 40px;
+    margin:2px
+}
+
+@media screen and (max-width: 450px) {
+    .subcontainer{
+        width:100%
+    }
+}

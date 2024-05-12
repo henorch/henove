@@ -1,0 +1,48 @@
+.container {
+    width: 100vw;
+    margin-top: 50px;
+    margin:'0 auto';
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thumbholder{
+    height: 120px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 0;
+    align-self: flex-end;
+ }
+ .thumbnail {
+     width:80px;
+     height: 80px;
+     border: 1px solid blue;
+     justify-content: center;
+     align-items: center;
+     border-radius:50px;
+ }
+ 
+ .homecomponent {
+     display:flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     height: 90vh;
+     background-size:contain;
+     width:100%;
+     margin-top: 80px;
+     border: 1px solid black;
+     background-repeat: no-repeat;
+ }
+ 
+ .touch {
+     color:blue;
+     text-align: justify;
+     width: 50%;
+ }
