@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/henove/static/css/main.7426bd33.css",
-    "main.js": "/henove/static/js/main.c59a415e.js",
+    "main.css": "/henove/static/css/main.45f54a19.css",
+    "main.js": "/henove/static/js/main.0cd296ca.js",
     "static/js/453.8566eefc.chunk.js": "/henove/static/js/453.8566eefc.chunk.js",
     "static/media/graphic.png": "/henove/static/media/graphic.fbc1b4799d20203f60ce.png",
     "static/media/Printing.png": "/henove/static/media/Printing.2cbc30cb8c88ac832679.png",
@@ -9,12 +9,12 @@
     "static/media/market2.png": "/henove/static/media/market2.414509a9ae589c0b064f.png",
     "static/media/nobg.png": "/henove/static/media/nobg.056d5070d64856b974dd.png",
     "index.html": "/henove/index.html",
-    "main.7426bd33.css.map": "/henove/static/css/main.7426bd33.css.map",
-    "main.c59a415e.js.map": "/henove/static/js/main.c59a415e.js.map",
+    "main.45f54a19.css.map": "/henove/static/css/main.45f54a19.css.map",
+    "main.0cd296ca.js.map": "/henove/static/js/main.0cd296ca.js.map",
     "453.8566eefc.chunk.js.map": "/henove/static/js/453.8566eefc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7426bd33.css",
-    "static/js/main.c59a415e.js"
+    "static/css/main.45f54a19.css",
+    "static/js/main.0cd296ca.js"
   ]
 }
