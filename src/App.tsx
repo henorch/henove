@@ -4,18 +4,18 @@ import './App.css';
 import Home from './pages/Home/Home.component';
 import AboutUs from './pages/about/aboutus.component';
 import Footer from './component/Footer/footer';
-import  { Link, Routes, Route } from 'react-router-dom'
+import { Link, Routes, Route } from 'react-router-dom'
 import Navbar from './component/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Routes>
-          <Route path='/'  element={<Home/>}/>
-          <Route path='/about' element={<AboutUs/>}/>
-       </Routes>
-       <Footer/>
+        <Route path='/' index element={<Home />} />
+        <Route path='/about' element={<AboutUs />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
